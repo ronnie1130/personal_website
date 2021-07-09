@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="fullpage/fullpage.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <ul class="menu" id="theMenu">
+      <li data-menuanchor="home" class="menu__item">
+        <a href="#home" class="menu__link">HOME</a>
+      </li>
+      <li data-menuanchor="about" class="menu__item">
+        <a href="#about" class="menu__link">ABOUT</a>
+      </li>
+      <li data-menuanchor="project" class="menu__item">
+        <a href="#project" class="menu__link">PROJECT</a>
+      </li>
+    </ul>
+    <div id="fullpage">
+      <div class="section firstPage">
+        <h1 class="title" id="text"></h1>
+        <p class="para">Welcome to my website !</p>
+      </div>
+      <div class="section secondPage">
+        <div class="personal">
+          <div class="container information">
+            <div class="info">
+              <div class="info__name">
+                <h2 class="info__name-chinese">熊玟雅</h2>
+                <h3 class="info__name-english">Ronnie</h3>
+              </div>
+              <p class="info__edu">中原大學 心理系 大學畢業</p>
+              <div class="info__detail">
+                <p class="info__detail-address">桃園市中壢區</p>
+                <span>|</span>
+                <p class="info__detail-job">希望職稱：前端工程師</p>
+              </div>
+              <div class="info__contact">
+                <div class="info__contact-github">
+                  <i class="fab fa-github"
+                    ><a href="https://github.com/ronnie1130"></a></i
+                  >GitHub
+                </div>
+                <span>|</span>
+                <div class="info__contact-mail">
+                  <i class="fas fa-envelope"></i>
+                  vicky158@gmail.com
+                </div>
+                <span>|</span>
+                <div class="info__contact-phone">
+                  <i class="fas fa-phone"></i>
+                  +886989552370
+                </div>
+              </div>
+            </div>
+            <img src="img/avatar.jpg" alt="avatar" class="avatar" />
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume">
+            <div class="resume__edu">
+              <div class="resume__edu-title">
+                學歷背景 <span>EDUCATION</span>
+              </div>
+
+              <ul>
+                <li class="university">
+                  <h4 class="university__title">中原大學</h4>
+                  <div class="department">心理系<span>2016 - 2021</span></div>
+                </li>
+                <li class="senior">
+                  <h4 class="senior__title">彰化縣 精誠中學</h4>
+                  <div class="department">高中部<span>2013 - 2016</span></div>
+                </li>
+                <li class="junior">
+                  <h4 class="junior__title">彰化縣 精誠中學</h4>
+                  <div class="department">國中部 <span>2010 - 2013</span></div>
+                </li>
+              </ul>
+            </div>
+            <div class="resume__skill">
+              <div class="resume__skill-title">技能 <span>SKILLS</span></div>
+              <div class="skill__card">
+                <h4 class="skill__card-title">FRONT END</h4>
+                <p>熟悉 HTML5、CSS3、RWD 網頁切版</p>
+                <p>熟悉 Bootstrap 及 Sass 語言</p>
+                <p>熟悉 Javascript (ES6+) 及 API串接</p>
+              </div>
+            </div>
+            <div class="resume__add">
+              <div class="resume__add-title">
+                工讀經驗 <span>ADDITIONAL EXPERIENCE</span>
+              </div>
+              <div class="add__card">
+                <p class="add__card-title">
+                  諮商中心 櫃台工讀生 <span>2019 - 2020</span>
+                </p>
+
+                <p class="add__card-title">
+                  餐飲業 櫃台工讀生 <span>2016 - 2018</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg">ABOUT</div>
+      </div>
+      <div class="section thirdPage">
+        <div class="slider-container">
+          <div class="left-slide">
+            <div style="background-color: #b56953">
+              <h1>Alloggio</h1>
+              <a href="https://ronnie1130.github.io/hotel_p/">link</a>
+            </div>
+            <div style="background-color: #e85d42; background-size: cover">
+              <h1>Adriatic Hotel</h1>
+              <a href="https://ronnie1130.github.io/grid-p/">link</a>
+            </div>
+            <div style="background-color: #ed9281; background-size: cover">
+              <h1>Local Beauty</h1>
+              <a href="https://ronnie1130.github.io/Local_Beauty/">link</a>
+            </div>
+            <div style="background-color: #74b9ff; background-size: cover">
+              <h1>Note App</h1>
+              <a href="https://ronnie1130.github.io/note_app/">link</a>
+            </div>
+            <div style="background-color: #ffb866">
+              <h1>Live Photo</h1>
+              <a href="https://ronnie1130.github.io/LivePhoto/">link</a>
+            </div>
+          </div>
+          <div class="right-slide">
+            <div style="background-image: url(img/photos.png)"></div>
+            <div style="background-image: url(img/note.png)"></div>
+            <div style="background-image: url(img/local.png)"></div>
+            <div style="background-image: url(img/hotel01.png)"></div>
+            <div style="background-image: url(img/hotel02.png)"></div>
+          </div>
+          <div class="action-buttons">
+            <button class="down-button">
+              <i class="fas fa-arrow-down"></i>
+            </button>
+            <button class="up-button">
+              <i class="fas fa-arrow-up"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="fullpage/fullpage.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#fullpage').fullpage({
+        licenseKey: '',
+        menu: '#theMenu',
+        anchors: ['home', 'about', 'project'],
+      })
+    })
+  </script>
+  <script src="all.js"></script>
+</html>
