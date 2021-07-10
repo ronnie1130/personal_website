@@ -243,6 +243,7 @@ body {
 .skill__card-title,
 .add__card-title {
   margin-left: 10px;
+  margin-bottom:20px;
 }
 
 .bg {
