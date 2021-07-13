@@ -70,7 +70,7 @@ body {
 }
 
 .personal {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-left: 120px;
   padding-bottom: 56px;
   width: 100%;
@@ -104,7 +104,7 @@ body {
 
 .info__name-chinese {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 40px;
   color: #000;
   margin-right: 18px;
   margin-bottom: 18px;
@@ -170,7 +170,7 @@ body {
 .resume__skill-title,
 .resume__add-title {
   font-weight: 500;
-  font-size: 36px;
+  font-size: 26px;
   color: #222;
   margin-bottom: 40px;
 }
