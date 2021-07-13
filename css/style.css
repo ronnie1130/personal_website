@@ -252,6 +252,7 @@ button:focus {
 .avatar {
   border-radius: 50%;
   width: 180px;
+  height: 180px;
 }
 
 .contact__textbox ul {
